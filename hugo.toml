@@ -1,0 +1,19 @@
+baseURL = 'https://neverpunished.com/'
+languageCode = 'en-ie'
+title = 'Never Punished'
+theme = 'coming-soon'
+
+[params]
+    title = "Never Punished"
+    message = "Coming Soon!"
+    description = "Did you actually keep a one land hand?"
+
+socialIcons = [
+{name = "email", url = "contact@neverpunished.com"},      
+# {name = "twitter", url = "https://twitter.com/"},    
+# {name = "facebook", url = "https://facebook.com/"},    
+{name = "github", url = "https://github.com/NeverPunished"},    
+{name = "instagram", url = "https://www.instagram.com/neverpunishedgg/"},    
+# {name = "tiktok", url = "https://tiktok.com/"},  
+# {name = "linkedin", url = "https://linkedin/in/"},  
+]
