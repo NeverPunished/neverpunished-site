@@ -1,0 +1,10 @@
+[build.environment]
+HUGO_VERSION = "0.139.0"
+TZ = "Europe/Dublin"
+
+[build]
+publish = "public"
+command = "hugo --gc --minify --baseURL ${URL}"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --baseURL ${DEPLOY_PRIME_URL}"
